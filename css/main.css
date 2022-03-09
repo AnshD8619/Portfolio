@@ -344,7 +344,7 @@ hr {
 
 /*----------- Sidebar -----------*/
 .sidebar {
-  background-color: #111;
+  background-color: rgb(223, 223, 223);
 }
 
 .sidebar .sidebar-header {
@@ -361,7 +361,7 @@ hr {
 }
 
 .sidebar .sidebar-header .sidebar-name {
-  color: #fff;
+  color: rgb(2, 2, 2);
   display: block;
   font-size: 18px;
   font-weight: 600;
@@ -369,7 +369,7 @@ hr {
 }
 
 .sidebar .sidebar-header .sidebar-status {
-  color: #8a8a8a;
+  color: #000000;
   display: block;
   line-height: 100%;
   margin-bottom: 0;
@@ -394,7 +394,7 @@ hr {
 }
 
 .sidebar .sidebar-menu .list-menu .nav-link {
-  color: rgba(232, 232, 232, 0.95);
+  color: rgba(0, 0, 0, 0.95);
   font-size: 16px;
   letter-spacing: 0.5px;
   line-height: 100%;
@@ -443,7 +443,7 @@ hr {
 }
 
 .mobile-navbar:before {
-  background-color: #222;
+  background-color: #484848;
   content: '';
   height: 58px;
   position: absolute;
@@ -453,7 +453,7 @@ hr {
 }
 
 .mobile-navbar .navbar-toggler {
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
   border-color: #222;
   border-radius: 3px;
   display: block;
@@ -464,7 +464,7 @@ hr {
 }
 
 .mobile-navbar .navbar-toggler .nav-btn {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1px;
@@ -472,7 +472,7 @@ hr {
 }
 
 .mobile-navbar .navbar-collapse .navbar-nav {
-  background-color: #222;
+  background-color: rgb(0, 0, 0);
   padding: 8px 20px;
   position: relative;
   top: 8px;
@@ -481,7 +481,7 @@ hr {
 }
 
 .mobile-navbar .navbar-collapse .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
   font-weight: 400;
   padding: 7px 0;
@@ -489,7 +489,7 @@ hr {
 
 .mobile-navbar .navbar-collapse .navbar-nav .nav-link:hover,
 .mobile-navbar .navbar-collapse .navbar-nav .nav-link:focus {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 /*----------- Home -----------*/
@@ -671,11 +671,13 @@ hr {
 
 /*----------- About -----------*/
 .about-area .about-img img {
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.68);
   border-color: rgba(0, 0, 0, 0.18);
   width: 430px;
 }
-
+.home-area:before{
+  border-color: rgba(0, 0, 0, 0.18);
+}
 .about-area .about-content .content-subtitle {
   font-size: 22px;
   margin-bottom: 8px;
@@ -693,7 +695,7 @@ hr {
 }
 
 .about-area .about-content .content-description p:last-child {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.68);
   margin-bottom: 0;
   padding-bottom: 27px;
 }
