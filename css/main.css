@@ -443,7 +443,7 @@ hr {
 }
 
 .mobile-navbar:before {
-  background-color: #484848;
+  background-color: #000000;
   content: '';
   height: 58px;
   position: absolute;
@@ -453,7 +453,7 @@ hr {
 }
 
 .mobile-navbar .navbar-toggler {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-color: #222;
   border-radius: 3px;
   display: block;
